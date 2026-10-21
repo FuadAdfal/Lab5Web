@@ -38,7 +38,28 @@
         <input type="number" id="uas" name="uas">
      </label>
      <button id="hitung" onclick="hitungNilai()">Hitung</button>
+      <p>Nilai AKhir : <span id="nilaiAkhir">0</span></p>
+      <p>Predikat : <span id="predikat">0</span></p>
+      <p>Status : <span id="status">0</span></p> 
      
+      <label>
+         Masukan angka :
+         <input type="number" id="input" name="number">
+      </label>
+      <button onclick="cek()">Submit</button>
+
+        <h3>Daftar Menu Makanan</h3>
+      <label><input type="checkbox" class="menu" value="5000"> Ayam Goreng — Rp5.000</label><br>
+      <label><input type="checkbox" class="menu" value="500"> Tempe — Rp500</label><br>
+      <label><input type="checkbox" class="menu" value="2500"> Telur Dadar — Rp2.500</label><br>
+      <label><input type="checkbox" class="menu" value="3000"> Ayam Panggang — Rp3.000</label><br>
+      <label><input type="checkbox" class="menu" value="5700"> Ayam Geprek — Rp5.700</label><br>
+      <label><input type="checkbox" class="menu" value="8150"> Nasi — Rp8.150</label><br>
+      <p>Total: Rp<span id="total">0</span></p>
+
+      <button onclick="toggle()">Tampilkan Kotak</button>
+      <div id="kotak" style="display: block; width: 50px; height: 50px; background-color: aqua;"></div>
+      
     <script src="script.js"></script> 
 </body> 
 </html>

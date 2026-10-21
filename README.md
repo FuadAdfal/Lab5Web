@@ -74,24 +74,19 @@ Membuat daftar menu dengan checkbox. Event listener `change` memanggil `hitungTo
 
 Membuat form input Nilai Tugas, UTS, dan UAS. Nilai akhir dihitung dengan bobot **30% tugas + 30% UTS + 40% UAS**, lalu predikat (A-E) dan status kelulusan (Lulus jika ≥ 60) ditentukan. Perhitungan dipisahkan dalam function `hitungNilaiAkhir()` dan `tentukanPredikat()`, sedangkan `hitungNilai()` mengurus validasi dan tampilan.
 
-**Tahap 1:** form, validasi rentang 0-100, dan hasil di Console.
+**Tahap 1:** form, validasi rentang 0-100, dan hasil di Console. Pengujian di Console: nilai 89/85/88 menghasilkan 87.40 (A, Lulus) dan nilai 30/40/25 menghasilkan 31.00 (E, Belum lulus).
 
-<img src="screenshot/kode9.png">  
-<img src="screenshot/kode9lanjutan.png">  
-<img src="screenshot/hasil9.png">  
-<img src="screenshot/hasil9lanjutan.png">  
-<img src="screenshot/hasil9lanjutan1.png">  
-<img src="screenshot/hasil9lanjutan2.png">  
-
-Pengujian di Console: nilai 89/85/88 menghasilkan 87.40 (A, Lulus) dan nilai 30/40/25 menghasilkan 31.00 (E, Belum lulus).
-
-<img src="screenshot/hasil9lanjutan3.png">  
-<img src="screenshot/hasil9lanjutan4.png">  
+<img src="screenshot/ss9.png">  
+<img src="screenshot/ss9 juga.png">  
+<img src="screenshot/ss9 juga lagi.png">  
+<img src="screenshot/ss9 juga lagi juga lagi.png">  
+<img src="screenshot/ss9 juga lagi juga lagi.png">  
+<img src="screenshot/ss9 juga lagi 2.png">  
 
 **Tahap 2:** validasi ditambah pengecekan input kosong, dan hasil (nilai akhir, predikat, status) ditampilkan pada halaman HTML.
 
-<img src="screenshot/kode10.png">  
-<img src="screenshot/kode10lanjutan.png">  
+<img src="screenshot/ss10 juga lagi juga (2).png">  
+<img src="screenshot/ss10 juga lagi juga (3).png">  
 
 Skenario pengujian:
 
@@ -101,55 +96,48 @@ Skenario pengujian:
 | 76 | 88 | 46 | 67.60 | C | Lulus |
 | 40 | 77 | 50 | 55.10 | D | Belum lulus |
 
-<img src="screenshot/hasil10.png">  
-<img src="screenshot/hasil10lanjutan.png">  
-<img src="screenshot/hasil10lanjutan1.png">  
+<img src="screenshot/ss10 juga lagi juga (4).png">  
+<img src="screenshot/ss10 juga lagi juga (1).png">  
 
 ## 3. Eksperimen Mandiri
 
 ### Eksperimen 1: Latihan 3 dengan Input Prompt
 Mengubah `operasiDasar()` agar menerima dua angka dari `prompt()` dan mengonversinya ke `Number`. Contoh input 30 dan 29 menghasilkan penjumlahan 59, pengurangan 1, perkalian 870, dan modulus 1.
 
-<img src="screenshot/kode11.png">  
-<img src="screenshot/hasil11.png">  
-<img src="screenshot/hasil11lanjutan.png">  
-<img src="screenshot/hasil11lanjutan1.png">  
+<img src="screenshot/ss11.png">  
+<img src="screenshot/ss11 juga.png">  
+<img src="screenshot/ss11 juga lagi.png">  
+<img src="screenshot/ss11 juga lagi juga.png">  
 
 ### Eksperimen 2: Tabel Perkalian 7
 Menggunakan perulangan `for` dari 1 sampai 10 untuk mencetak hasil perkalian angka 7 ke Console.
 
-<img src="screenshot/kode12.png">  
-<img src="screenshot/hasil12.png">  
+<img src="screenshot/ss12.png">  
+<img src="screenshot/ss12 juga.png">  
 
 ### Eksperimen 3: Function `cekGenap(angka)`
 Membuat function `cekGenap(angka)` yang memeriksa genap atau tidaknya sebuah angka dan menampilkan hasil `True` atau `False`. Diuji dengan angka 3 (False) dan 6 (True).
 
-<img src="screenshot/kode13.png">  
-<img src="screenshot/hasil13.png">  
-<img src="screenshot/kode14.png">  
-<img src="screenshot/hasil14.png">  
+<img src="screenshot/ss13.png">  
+<img src="screenshot/ss13 juga.png">  
+<img src="screenshot/ss13 juga lagi.png">  
+<img src="screenshot/ss13 juga lagi juga.png">  
 
 ### Eksperimen 4: Validasi Form Tidak Boleh Kosong
 Menambahkan input angka dan tombol Submit yang memanggil `cek()`. Jika kolom kosong, muncul alert "Masukkan bilangan!". Jika terisi, `cekGenap()` dijalankan.
 
-<img src="screenshot/kode15.png">  
-<img src="screenshot/kode15lanjutan.png">  
-<img src="screenshot/hasil15.png">  
-<img src="screenshot/hasil15lanjutan.png">  
-<img src="screenshot/hasil15lanjutan1.png">  
+<img src="screenshot/ss14.png">  
+<img src="screenshot/ss14 juga.png">  
+<img src="screenshot/ss14 juga lagi.png">  
+<img src="screenshot/ss14 juga lagi juga.png">  
 
 ### Eksperimen 5: Menambah Pilihan Menu dan Harga
-Menambahkan tiga menu baru pada Latihan 8: Mie Rebus (Rp3.000), Ayam Geprek (Rp5.700), dan Spageti (Rp8.150). Total semua menu Rp24.850.
+Menambahkan tiga menu baru pada Latihan 8: Ayam Goreng (Rp5.000), Tempe (Rp500), dan Telur Dadar (Rp2.500). Total semua menu Rp8.000.
 
-<img src="screenshot/kode16.png">  
-<img src="screenshot/kode16lanjutan.png">  
-<img src="screenshot/hasil16.png">  
-<img src="screenshot/hasil16lanjutan.png">  
-<img src="screenshot/hasil16lanjutan1.png">  
-<img src="screenshot/hasil16lanjutan2.png">  
-<img src="screenshot/hasil16lanjutan3.png">  
-<img src="screenshot/hasil16lanjutan4.png">  
-<img src="screenshot/haisl16lanjutan5.png">  
+<img src="screenshot/ss16.png">  
+<img src="screenshot/ss16 juga.png">  
+<img src="screenshot/ss16 juga lagi.png">  
+<img src="screenshot/ss16 juga lagi juga.png">  
 
 ### Eksperimen 6: Tombol Sembunyikan/Tampilkan Elemen
 Membuat tombol yang memanggil `toggle()` untuk mengubah `style.display` pada kotak `#kotak` antara `block` dan `none`.
